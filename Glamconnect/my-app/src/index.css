@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+@layer utilities {
+  .gradient-bg {
+    background: linear-gradient(135deg, #E0E7FF 0%, #FCE7F3 100%);
+  }
+  
+  .gradient-bg-vertical {
+    background: linear-gradient(180deg, #DBEAFE 0%, #F3E8FF 50%, #DBEAFE 100%);
+  }
+}
